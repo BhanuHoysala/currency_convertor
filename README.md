@@ -10,7 +10,7 @@ The server will create the output.json at the current execution directory. It al
 
 ###### http://localhost:8080/currency/v1/convert?from=USD&to=EUR&amount=10
 
-## query params - "from" is the source currency, "to" is the target currency, "amount" is the price to be converted
+#### query params - "from" is the source currency, "to" is the target currency, "amount" is the price to be converted
 
 
 ## Instruction to execute the Client
