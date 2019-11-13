@@ -17,15 +17,3 @@ The server will create the output.json at the current execution directory. It al
 After bootstrapping the server run the python script currency_onvertor_client.py
 
 ###### python currency_onvertor_client.py
-
-
-## Answers to the questions asked -
-
-### Will it work with a 2 TB input file as well?
-My implementation works for the 2 TB file as I'm not loading the entire file data to the memory.
-
-### What happens if the input file has one malformed line towards the end of the file?
-My implementation gracefully handles the malformed line at any lines of the input file
-
-### Is it fine to encode the price value as a number in JSON? What kind of problems could arise?
-I prefer to keep the numeric value in JSON as a string as it eliminates any loss of precision or ambiguity in the transfer.  
