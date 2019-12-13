@@ -1,3 +1,8 @@
+# Currency Convevert REST service
+
+### Get live currency rates Converted from any type to others
+
+
 ## Instruction to bootstrap the Server
 
 1. For code review/analysis please import as Gradle project.
@@ -12,6 +17,8 @@ The server will create the output.json at the current execution directory. It al
 
 #### query params - "from" is the source currency, "to" is the target currency, "amount" is the price to be converted
 
+
+## Python based client tool to benchmark the perforamnce of REST application server 
 
 ## Instruction to execute the Client
 After bootstrapping the server run the python script currency_onvertor_client.py
